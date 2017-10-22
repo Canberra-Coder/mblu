@@ -1,0 +1,125 @@
+// AA Navbar
+// --------------------------------------------------
+
+
+// Name brand
+.navbar-brand {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Audiowide', cursive;
+	text-transform: uppercase;
+}
+// ------
+
+
+// Navbar core
+// --------------------------------------------------
+
+.navbar {
+//	margin-top: 5px;
+//  	@media (max-width: $screen-sm) {
+//	margin-top: 0px;
+    margin-bottom: 1px;
+//  }
+
+}
+
+// Navbar default 
+
+.navbar-default .navbar-brand {
+	.btn-default {
+	color: #fff;
+	@include red-down;
+	}
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #fff;
+	@include red-down;
+	border-color: $brand-danger;
+}
+.navbar-default a:hover {
+	color: #fff;
+	border-color: $brand-danger;
+}
+
+.navbar-default {
+
+	.btn-default {
+	color: #fff;
+	@include blue-gray;
+	border-color: #012b25;
+	border-radius: 12px;
+	border-top-right-radius: 12px;
+   	border-top-left-radius: 12px;
+  	border-bottom-right-radius: 0px;
+   	border-bottom-left-radius: 0px;
+	}
+	.btn-danger {
+	color: #fff;
+	@include red-down;
+	border-color: $brand-danger;
+	border-radius: 12px;
+	border-top-right-radius: 12px;
+   	border-top-left-radius: 12px;
+  	border-bottom-right-radius: 0px;
+   	border-bottom-left-radius: 0px;
+	}
+
+	.fa {
+//	color:#fff;
+	}
+	a:hover {
+	color: #fff;
+	border-color: #fff;
+	}
+
+  	@media (max-width: $screen-sm) {
+	border-bottom: 1px solid #eee;
+  }
+
+}
+
+.navbar-default .navbar-nav > li {
+	margin-right: 3px;
+  	@media (max-width: $screen-sm) {
+	margin-right: 0px;
+  }
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    	color: #fff;
+    	@include red-down;
+	border-color: #fff;
+}
+
+.navbar-default .navbar-nav > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav {
+    margin-left: 3px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	border-color: $brand-danger;
+}
+
+.navbar-nav > li {
+	margin-right: 2px;
+}
+
+.navbar-nav > li > a {
+	margin-top: 4px;
+	margin-right: 2px;
+    	padding-top: 3px;
+    	padding-bottom: 3px;
+    	padding-left: 8px;
+    	padding-right: 8px;
+}
+
+
+
+

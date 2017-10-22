@@ -1,0 +1,159 @@
+// AA Navbar
+// --------------------------------------------------
+
+
+// Name brand
+
+// Alternate navbars
+// --------------------------------------------------
+// Inverse navbar
+
+//  Brand
+.navbar-inverse .navbar-brand {
+  color: #787878;
+	.btn-default {
+	color: #333;
+	@include red-down;
+	}
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:active {
+	color: #454545;
+	@include blu-lgt2;
+	border-color: transparent;
+}
+
+.fa {
+	color: #777;
+}
+.fa.a:hover {
+
+	}
+
+.fa-at {
+	color: #777;
+}
+.fa-at.a:hover {
+	background-color: transparent;
+  @include blu-lgt2;
+	}
+  
+.navbar-inverse .fa-at:hover, .navbar-inverse .fa-at:focus {
+//	color: $brand-warning;
+//	@include blue-gray;
+}
+  
+//  Brand end
+
+.navbar-inverse {
+  @include blu-lgt2;
+  border-color: #fff;	
+	.btn-default {
+	color: #fff;
+	@include blu-lgt2; 
+	border-color: #ddd;
+	}
+	.btn-toolbar {
+	margin-top: 4px;
+		.btn {
+		padding: 3px 12px;
+		}
+	}
+	.btn-toolbar > a {
+    	padding-top: 3px;
+    	padding-bottom: 3px;
+    	padding-left: 8px;
+    	padding-right: 8px;
+		a:hover, a:focus {
+    		color: #fff;
+    		@include gray-down;
+		border-color: #555;
+		}
+	}
+}
+.navbar-inverse .navbar-nav > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	border-color: #444;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    	color: #fff;
+//    	@include gray-down;
+	border-color: #555;
+}
+
+
+.navbar-inverse a:hover, .navbar-inverse a:focus {
+	color: #000;
+	@include blu-lgt-tr1;
+	border-color: #cbcbcb;
+}
+
+.navbar-inverse .fa:hover, .navbar-inverse .fa:focus {
+//	color: $brand-warning;
+//	@include blue-gray;
+	border-color: #555;
+}
+
+
+
+.navbar-inverse  .btn-default:active, .navbar-inverse .btn-default.active, .open > .btn-default.dropdown-toggle {
+	color: #fff;
+	@include blu-lgt2;
+	border-color: #999;
+}
+
+.navbar-inverse  .dropdown-menu > li {
+	float: left;
+}
+
+.navbar-inverse  .dropdown-menu > li > a {
+//    display: block;
+	padding: 8px 20px;
+	margin-bottom: 1px;
+	border-radius: 8px;
+	border-color: #333;
+//    clear: both;
+//    font-weight: normal;
+//    line-height: 1.42857;
+	color: #fff;
+	@include blue-gray;
+//    white-space: nowrap;
+}
+
+.navbar-inverse  .dropdown-menu > li {
+	float: left;
+}
+
+.navbar-inverse .dropdown-menu {
+	margin-top: 5px;
+	padding: 0px 0px;
+	background-color: transparent;
+	border: 0px solid rgba(0, 0, 0, 0.0);
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+	min-width: auto;
+}
+
+.navbar-inverse .dropdown-menu .btn {
+	margin-bottom: -3px;
+	.btn-default a {
+	@include gray-down;
+	}
+}
+.navbar-inverse .dropdown-menu {
+	.btn-default {
+	@include darker-gray-down;
+	border-color: #444;
+	}
+}
+
+.navbar-inverse .dropdown-menu > a:hover, .navbar-inverse .dropdown-menu > a:focus {
+	@include red-down;
+}
+
+
+
+

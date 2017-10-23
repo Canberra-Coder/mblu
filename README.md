@@ -1,3 +1,4 @@
 # mblu
 ## Drupal Bootstrap theme
-### in progress live braddon.net and home
+### In progress
+### Edit AA files to alter
